@@ -2,9 +2,12 @@
 <html>
     <head >
       <title>Hello World</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+      <div class="container">
       <!-- Headings -->
+      <div class="index-1">
       <h1>Hello World</h1>
      
     
@@ -12,27 +15,31 @@
         <p>
          Welcome to my website. If you are here, thanks for stopping by and checking things out.. right now the site is really simple but I'll be using this as a way to expand on my coding skills while slowly adding more features to the site over the next few weeks. 
         </p>
+      </div>
         <p>
           If you want to follow me on twitter, you may do so <a href="http://twitter.com/tiny__artist" target="_blank">here.</a> I mainly just tweet Nav and Kanye lyrics while retweeting art, crpyto stuff, and shitty memes. Soon I'll be posting and documenting a lot of my sideprojects in my discord, the link for that should be posted later this week. Thx and take care!
           <br>
-          <br>
           <h3><em>“Let him who would move the world first move himself.”― Socrates</em></h3>
-          :)))
           <br>
+          <div class="video">
           <iframe width="420" height="315" 
           src="https://www.youtube.com/embed/7xqfC80SRGU">
           </iframe>
+        </div>
         </p>
 
         <!-- Lists -->
+        <div class="list">
+        <h3><p style="font-size:25px">&#129409;</p></h3>
         <ul>
          <li> learn everyday</li> 
          <li> drink water</li>
         </ul>
-
-        <p>subscribe below to get a daily meme sent to you</p>
+        </div>
 
         <!-- Forms -->
+        <div class="email-group">
+        <form class="my-email">
         <form action="https://formsubmit.co/9fbb568c358961691b21d5e96a40f22c" method="POST">
           <!-- Honeypot -->
           <input type="text" name="_honey" style="display: none;">
@@ -42,20 +49,32 @@
 
           <input type="hidden" name="_next" value="https://c-o-b-o-s.github.io/cobos/success.html">
 
+          Enter your e-mail and receive a daily meme!
+          <br>
+          <br>
           <label> Email </label>
           <input type="email" name="email" id="email" required>
           <input type="submit" name="submit" value="Submit">
+        </div>
+        </form>
         </form>
         <br>
-        <a href="blog.html"> peep my blog </a>
-        <br>
-        <br>
-        <!-- hitcounter -->
-        <script type="text/javascript" src="https://free-hit-counters.net/count/af86"></script><br>
- <a href='http://xn--besucherzhlerkostenlos-84b.com/'>Follow Your Dreams</a> <script type='text/javascript' src='https://whomania.com/ctr?id=4b12855dff818e09320f08e09893808eec0225c8'></script>   
- <footer>
-  <p><small>copyright &copy; 2022, gassed.io </small></p>
-</footer>
 
+        <!-- blog -->
+        <div class="blog">
+        <a href="blog.html"> peep my blog </a>
+        </div>
+        <br>
+        <hr>
+
+        <!-- hitcounter -->
+        <div class="footer">
+        <script type="text/javascript" src="https://free-hit-counters.net/count/af86"></script><br>
+         <a href='http://xn--besucherzhlerkostenlos-84b.com/'>Follow Your Dreams</a> <script type='text/javascript' src='https://whomania.com/ctr?id=4b12855dff818e09320f08e09893808eec0225c8'></script>   
+         <footer>
+        <p><small>copyright &copy; 2022, gassed.io </small></p>
+        </footer>
+         </div>
+    </div><!-- ./container -->
     </body>
 </html>
