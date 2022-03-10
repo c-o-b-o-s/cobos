@@ -124,10 +124,7 @@ a:active{
 	line-height: .5px;
 }
 
-.my-email{
-	padding: 20px;
-	text-align: center;
-}
+
 
 .email-group{
 	background-color: #C2BEC6;
@@ -140,6 +137,7 @@ a:active{
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	text-align: center;
 }
 
 .blog{
