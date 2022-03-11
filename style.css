@@ -164,6 +164,7 @@ a:active{
 
 .button1{
 	text-align: center;
+
 }
 
 
@@ -197,6 +198,32 @@ a:active{
 	margin: 0px;
 }
 
+.button1 {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #1DA1F2 5%, #019ad2 100%);
+	background-color:#1DA1F2;
+	border-radius:6px;
+	border:1px solid #33bdef;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+
+}
+.button1:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #1DA1F2 100%);
+	background-color:#019ad2;
+	color: lightgreen;
+}
+.button1:active {
+	position:relative;
+	top:1px;
+}
 
 
 
