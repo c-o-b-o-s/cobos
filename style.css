@@ -159,6 +159,7 @@ a:active{
 .list h3{
 	text-align: center;
 	margin-top: -25px;
+	margin-bottom: -15px;
 }
 
 .button1{
@@ -166,6 +167,30 @@ a:active{
 }
 
 
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: darkgray;
+	color: #fff;
+	border: red solid;
+	border-width: 5px;
+	padding: 10px;
+	font-weight: 800;
+	margin-top: 10px;
+}
+
+.p-box{
+	width: 800px;
+	height: 500px;
+	border: 1px solid #000;
+	position: relative;
+}
+
+.p-box h1{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
 
 
 
