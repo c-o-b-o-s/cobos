@@ -142,10 +142,10 @@ a:active{
 	margin-right: auto;
 	width: 50%;
 	text-align: center;
-	background-image:url('./images/cluescroll.png') ;
+	background-image:url('./images/bgimage6.png') ;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: right;
+	background-position: left;
 }
 
 .blog{
