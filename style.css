@@ -158,11 +158,15 @@ a:active{
 }
 
 .list{
-	text-align: center left;
+	text-align: center;
 	list-style-position: inside;
 	border: 3px dotted #ccc;
 	padding: 20px;
 	margin: 20px 0;
+}
+
+.list li{
+	display: inline;
 }
 
 .list h3{
@@ -283,11 +287,12 @@ a:active{
 	text-align: center;
 	padding: 1px;
 	margin-bottom: 10px;
+	padding-bottom: 5px;
+	line-height: 7.5px;
 }
 
 #navbar ul{
 	padding: 0px;
-	list-style: none;
 }
 
 #navbar li{
@@ -316,13 +321,55 @@ a:active{
 	background: #333;
 	color: #fff;
 	padding: 10px;
+	padding-top: 0px;
 }
 
-#hsidebar2{
-	float: right;
-	width: 0%;
-	margin-top: 200px;
+#hsidebar h3{
+	background-image:url('./images/mc.jpeg') ;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: -25px;
+
 }
+
+#hsidebar p{
+	margin-top: -10px;
+}
+
+
+#hsidebar ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+/*first list item*/
+#hsidebar li:nth-child(1)::before{
+    content: "\1F3A8";
+}
+
+/*second list item*/
+#hsidebar li:nth-child(2)::before{
+    content: "\26F3";
+}
+
+/*third list item*/
+#hsidebar li:nth-child(3)::before{
+    content: "\1F3D5";
+}
+
+/*fourth list item*/
+#hsidebar li:nth-child(4)::before{
+    content: "\1F579";
+}
+
+/*fifth list item*/
+#hsidebar li:nth-child(5)::before{
+    content: "\26D3";
+}
+
 
 @media(max-width: 600px){
 	#hmain{
